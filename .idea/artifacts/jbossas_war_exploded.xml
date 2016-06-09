@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="jbossas:war exploded">
-    <output-path>$PROJECT_DIR$/target/jbossas-1.0</output-path>
+    <output-path>$PROJECT_DIR$/classes/artifacts/jbossas_war_exploded</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -42,9 +42,6 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
         </element>
-      </element>
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/jbossas-1.0/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="jbossas/web/Web" />
     </root>
