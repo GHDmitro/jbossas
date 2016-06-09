@@ -66,9 +66,9 @@ public class AppConfig extends WebMvcConfigurerAdapter{
     public DataSource dataSource() {
         DriverManagerDataSource ds = new DriverManagerDataSource();
         ds.setDriverClassName("com.mysql.jdbc.Driver");
-        ds.setUrl("jdbc:mysql:OPENSHIFT_MYSQL_DB_HOST:OPENSHIFT_MYSQL_DB_PORT/");
-        ds.setUsername("adminw6z4TKb");
-        ds.setPassword("7PSipeRpBxiH");
+        ds.setUrl("jdbc:mysql:$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/");
+        ds.setUsername("adminHwSBQHA");
+        ds.setPassword("yfxFjPEGEqtu");
 //        Map<String, String>
         Properties properties = new Properties();
         properties.setProperty("useUnicode", "true");
