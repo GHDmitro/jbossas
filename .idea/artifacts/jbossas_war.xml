@@ -3,6 +3,9 @@
     <output-path>$PROJECT_DIR$/classes/artifacts/jbossas_war</output-path>
     <root id="archive" name="jbossas_war.war">
       <element id="artifact" artifact-name="jbossas:war exploded" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/webapp/WEB-INF/META-INF/MANIFEST.MF" />
+      </element>
     </root>
   </artifact>
 </component>
